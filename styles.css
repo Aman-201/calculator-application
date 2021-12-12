@@ -1,0 +1,129 @@
+
+#calc{
+  position: absolute;
+  background-color: lightgrey;
+  width: 30%;
+  height: 60%;
+  margin: 10% 30%;
+}
+.banner{
+  position: absolute;
+  background-color: black;
+  text-align: center;
+font-size: 30px;
+font-weight: bold;
+  color: white;
+  width:93%;
+  margin: 4% 3% 2% 3%;
+}
+.screen{
+  position: absolute;
+  background-color: #EEEEEE;
+  width:93%;
+  margin: 15% 3% 2%;
+  height: 15%;
+  text-align: right;
+font-size: 50px;
+font-weight: bolder;
+
+}
+.keypad{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  width:93%;
+  margin: 35% 3% 2%;
+  height: 59%;
+
+}
+.keys{
+
+   background-color: white;
+   width: 24%;
+   margin: 0.5%;
+text-align: center;
+   font-size: 24px;
+   height: 17%;
+}
+.zero
+{
+  flex: 1;
+}
+.opr{
+  background-color: red;
+}
+.keys:hover{
+  background-color: #FFE194;
+}
+@media (min-width:1000px) and  ( max-width:1288px)  {
+
+  #calc{
+    position: absolute;
+    background-color: lightgrey;
+    width: 50%;
+    height: 80%;
+    margin: 10% 30%;
+  }
+}
+@media (min-width:800px) and  ( max-width:999px)  {
+
+  #calc{
+    position: absolute;
+    background-color: lightgrey;
+    width: 60%;
+    height: 80%;
+    margin: 10% 30%;
+  }
+}
+@media (min-width:600px) and  ( max-width:799px)  {
+
+  #calc{
+    position: absolute;
+    background-color: lightgrey;
+    width: 50%;
+    height: 70%;
+    margin: 10% 30%;
+  }
+  .keypad{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width:93%;
+    margin: 45% 3% 2%;
+    height: 59%;
+
+  }
+}
+@media (min-width:400px) and  ( max-width:599px)  {
+
+  #calc{
+    position: absolute;
+    background-color: lightgrey;
+    width: 40%;
+    height: 60%;
+    margin: 20% 30%;
+  }
+  .keypad{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width:93%;
+    margin: 55% 3% 2%;
+    height: 59%;
+
+  }
+  .screen{
+    position: absolute;
+    background-color: #EEEEEE;
+    width:93%;
+    margin: 25% 3% 2%;
+    height: 15%;
+    text-align: right;
+  font-size: 50px;
+  font-weight: bolder;
+
+  }
+}
